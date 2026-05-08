@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Apercu design personnalise</title>
+  <desc id="desc">Illustration style personnalise pour collection PC</desc>
+  <defs>
+    <linearGradient id="custom" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00c2ff"/>
+      <stop offset="0.45" stop-color="#ffb703"/>
+      <stop offset="1" stop-color="#ff4d6d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#custom)"/>
+  <circle cx="180" cy="142" r="105" fill="#fff" opacity=".16"/>
+  <circle cx="760" cy="430" r="145" fill="#07090f" opacity=".18"/>
+  <rect x="170" y="132" width="560" height="330" rx="36" fill="#07111f" stroke="#fff" stroke-opacity=".28" stroke-width="10"/>
+  <rect x="220" y="188" width="460" height="218" rx="22" fill="#fff" opacity=".12"/>
+  <path d="M285 350 L385 250 L465 325 L525 265 L625 350 Z" fill="#fff" opacity=".84"/>
+  <circle cx="335" cy="245" r="38" fill="#ffb703"/>
+  <path d="M378 112 L398 62 L418 112 L470 130 L418 148 L398 198 L378 148 L326 130 Z" fill="#fff" opacity=".88"/>
+  <text x="68" y="552" fill="#07111f" font-family="Verdana, Geneva, sans-serif" font-size="80" font-weight="900">SUR MESURE</text>
+</svg>
