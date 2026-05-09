@@ -1,4 +1,4 @@
-﻿function buildWhatsappMessage(formData) {
+function buildWhatsappMessage(formData) {
     const lines = [
         'Bonjour Madou Coulou Business, je veux commander un design PC.',
         '',
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const formData = new FormData(orderForm);
         const message = buildWhatsappMessage(formData);
-        const whatsappUrl = `https://wa.me/22361027891?text=${message}`;
+        const whatsappUrl = `https://wa.me/22376363216?text=${message}`;
 
         window.open(whatsappUrl, '_blank', 'noopener');
         orderForm.reset();
