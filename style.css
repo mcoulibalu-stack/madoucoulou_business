@@ -335,6 +335,70 @@ h1 {
     font-weight: 900;
 }
 
+.faq-section {
+    background: rgba(0, 0, 0, 0.18);
+}
+
+.faq-intro {
+    margin: -18px auto 38px;
+    color: var(--muted);
+    text-align: center;
+}
+
+.faq-list {
+    display: grid;
+    gap: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    background: var(--card);
+    box-shadow: var(--shadow);
+}
+
+.faq-item summary {
+    position: relative;
+    padding: 24px 64px 24px 26px;
+    cursor: pointer;
+    font-size: clamp(1.05rem, 2vw, 1.35rem);
+    font-weight: 800;
+    list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    position: absolute;
+    top: 50%;
+    right: 26px;
+    color: var(--accent-3);
+    content: "+";
+    font-size: 1.8rem;
+    line-height: 1;
+    transform: translateY(-50%);
+}
+
+.faq-item[open] summary::after {
+    content: "\2212";
+}
+
+.faq-item[open] summary {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.faq-answer {
+    padding: 20px 26px 24px;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
 .form-container {
     max-width: 700px;
     padding: 34px;
@@ -507,6 +571,18 @@ textarea:focus {
 
     .form-container {
         padding: 24px;
+    }
+
+    .faq-item summary {
+        padding: 20px 54px 20px 18px;
+    }
+
+    .faq-item summary::after {
+        right: 18px;
+    }
+
+    .faq-answer {
+        padding: 16px 18px 20px;
     }
 
     .whatsapp-float {
